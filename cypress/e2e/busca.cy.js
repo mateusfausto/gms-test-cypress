@@ -4,6 +4,12 @@ describe("US-001 - Funcionalidade: Busca de Filmes", () => {
   beforeEach(() => {
     cy.visit("/");
   });
+
+  afterEach(() => {
+    cy.screenshot();
+  }); 
+
+  
   it("Deve buscar filme com sucesso.", () => {
     cy.get("#search-input").type("Matrix");
     cy.get("#search-button").click();
