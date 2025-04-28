@@ -16,7 +16,7 @@ describe("US-001 - Funcionalidade: Busca de Filmes", () => {
     cy.get("#results-section").should("contain", "Matrix");
   });
 
-  it("Deve buscar uma lista de filmes com sucesso.", () => {
+  it("Deve buscar um filme pelo index em uma lista de filmes com sucesso.", () => {
     cy.fixture("filmes").then((filmes) => {
       cy.get("#search-input").type(filmes[2].titulo);
       cy.get("#search-button").click();
@@ -24,7 +24,7 @@ describe("US-001 - Funcionalidade: Busca de Filmes", () => {
     });
   });
 
-  it.only("Deve buscar uma lista de filmes com sucesso.", () => {
+  it("Deve buscar uma lista de filmes com sucesso.", () => {
     cy.fixture("filmes").each((filmes) => {
       cy.get("#search-input").clear().type(filmes.titulo);
       cy.get("#search-button").click();
