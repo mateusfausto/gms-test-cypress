@@ -1,0 +1,22 @@
+[
+    {
+        "titulo": "Matrix",
+        "ano": 1999,
+        "descricao": "Um programador de computador descobre que a realidade como ele a conhece é na verdade uma simulação sofisticada criada por máquinas."
+      },
+      {
+        "titulo": "Batman",
+        "ano": 1989,
+        "descricao": "O Cavaleiro das Trevas emerge nas sombrias ruas de Gotham City para combater o Príncipe Palhaço do Crime, o Coringa."
+      },
+      {
+        "titulo": "Inception",
+        "ano": 2010,
+        "descricao": "Um ladrão habilidoso, mestre na arte da extração de segredos do subconsciente durante o estado de sonho, recebe uma tarefa impossível: plantar uma ideia na mente de alguém."
+      },
+      {
+        "titulo": "The Lord of the Rings",
+        "ano": 2001,
+        "descricao": "Um hobbit humilde recebe um anel mágico que é a chave para o domínio do mal sobre a Terra-média, e junto com uma sociedade de heróis, embarca em uma jornada épica para destruí-lo."
+      }
+]
